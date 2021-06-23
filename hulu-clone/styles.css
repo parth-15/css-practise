@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #051427, #042727);
+}
+
+.header .icons .header-icon p, .header .icons .header-icon span {
+    color: white;
+    align-content: center;
+}
+
+.header .header-image {
+    width: 150px;
+    object-fit: contain;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.header .icons {
+    display: flex;
+}
+
+.header .icons .header-icon span{
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.header .icons .header-icon span:hover{
+    transform: scale(1.5);
+}
+
+.header .icons .header-icon p {
+    color: transparent;
+}
+
+.header .icons .header-icon:hover p {
+    color: white;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.header::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .header {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.top-panel {
+    display: flex;
+}
+
+.top-panel p {
+    color: lightgrey;
+    font-size: 20px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.top-panel p:hover {
+    transform: scale(1.5);
+}
+
+.movies .movie img {
+    width: 460px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.movies .movie {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.movies .movie p {
+    color: white;
+}
+
+.movies .movie h2 {
+    color: lightgrey;
+}
